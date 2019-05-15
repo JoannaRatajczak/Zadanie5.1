@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Podaj temperaturę w pokoju 1");
         room1.temp = scan.nextDouble();
         room1.ACunit();
+        room1.ACunit();
 
         if (room1.temp > 18 && room1.AC)
             System.out.println("AC obniżyło temperatu do " + room1.temp + "stopni.");
